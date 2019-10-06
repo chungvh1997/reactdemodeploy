@@ -3,13 +3,14 @@ import Contact from "../views/Contact";
 import AboutUs from "../views/AboutUs";
 
 var indexRoutes = [
-  { path: "{process.env.PUBLIC_URL + '/home'}", name: "Feature", component: Home },
-  { path: "{process.env.PUBLIC_URL + '/contact'}", name: "Contact", component: Contact },
-  { path: "{process.env.PUBLIC_URL + '/about-us'}", name: "About Us", component: AboutUs },
+  { path: "/home", name: "Feature", component: Home ,exact:true },
+  { path: "/contact", name: "Contact", component: Contact ,exact:true},
+  { path:"/about-us", name: "About Us", component: AboutUs,exact :true  },
   {
     redirect: true,
+    exact:true,
     path: "/",
-    pathTo: "{process.env.PUBLIC_URL + '/home'}",
+    pathTo:  "/home",
     name: "Home"
   }
 ];
