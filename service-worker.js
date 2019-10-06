@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/reactdemodeploy/npm/precache-manifest.eb940c88b7363bd742cf475428edf95c.js"
+  "/reactdemodeploy/precache-manifest.e59363aac2a4ec95f351750ad05aea73.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/reactdemodeploy/npm/index.html", {
+workbox.routing.registerNavigationRoute("/reactdemodeploy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
