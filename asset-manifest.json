@@ -1,15 +1,15 @@
 {
-  "main.css": "/reactdemodeploy/static/css/main.7bca10ab.chunk.css",
-  "main.js": "/reactdemodeploy/static/js/main.a750a5fc.chunk.js",
-  "main.js.map": "/reactdemodeploy/static/js/main.a750a5fc.chunk.js.map",
-  "runtime~main.js": "/reactdemodeploy/static/js/runtime~main.f71bb08b.js",
-  "runtime~main.js.map": "/reactdemodeploy/static/js/runtime~main.f71bb08b.js.map",
-  "static/css/2.ad25e959.chunk.css": "/reactdemodeploy/static/css/2.ad25e959.chunk.css",
-  "static/js/2.82142d7d.chunk.js": "/reactdemodeploy/static/js/2.82142d7d.chunk.js",
-  "static/js/2.82142d7d.chunk.js.map": "/reactdemodeploy/static/js/2.82142d7d.chunk.js.map",
-  "index.html": "/reactdemodeploy/index.html",
-  "precache-manifest.e7794846a770e6f0d50cb0d2b579cb91.js": "/reactdemodeploy/precache-manifest.e7794846a770e6f0d50cb0d2b579cb91.js",
-  "service-worker.js": "/reactdemodeploy/service-worker.js",
-  "static/css/2.ad25e959.chunk.css.map": "/reactdemodeploy/static/css/2.ad25e959.chunk.css.map",
-  "static/css/main.7bca10ab.chunk.css.map": "/reactdemodeploy/static/css/main.7bca10ab.chunk.css.map"
+  "main.css": "/reactdemodeploy/npm/static/css/main.7bca10ab.chunk.css",
+  "main.js": "/reactdemodeploy/npm/static/js/main.6d964390.chunk.js",
+  "main.js.map": "/reactdemodeploy/npm/static/js/main.6d964390.chunk.js.map",
+  "runtime~main.js": "/reactdemodeploy/npm/static/js/runtime~main.880258f9.js",
+  "runtime~main.js.map": "/reactdemodeploy/npm/static/js/runtime~main.880258f9.js.map",
+  "static/css/2.ad25e959.chunk.css": "/reactdemodeploy/npm/static/css/2.ad25e959.chunk.css",
+  "static/js/2.82142d7d.chunk.js": "/reactdemodeploy/npm/static/js/2.82142d7d.chunk.js",
+  "static/js/2.82142d7d.chunk.js.map": "/reactdemodeploy/npm/static/js/2.82142d7d.chunk.js.map",
+  "index.html": "/reactdemodeploy/npm/index.html",
+  "precache-manifest.eb940c88b7363bd742cf475428edf95c.js": "/reactdemodeploy/npm/precache-manifest.eb940c88b7363bd742cf475428edf95c.js",
+  "service-worker.js": "/reactdemodeploy/npm/service-worker.js",
+  "static/css/2.ad25e959.chunk.css.map": "/reactdemodeploy/npm/static/css/2.ad25e959.chunk.css.map",
+  "static/css/main.7bca10ab.chunk.css.map": "/reactdemodeploy/npm/static/css/main.7bca10ab.chunk.css.map"
 }
