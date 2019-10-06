@@ -3,13 +3,14 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import indexRoutes from "../routes";
 import Header from "../components/Header";
 
-class LandingPage extends Component {
+class LayoutApp extends Component {
   state = {};
 
   render() {
+    const props = this.props;
     return (
       <div>
-        <Header />
+        <Header {...props} />
         <Switch>
           {indexRoutes.map((prop, key) => {
             if (prop.redirect)
@@ -24,4 +25,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default LayoutApp;

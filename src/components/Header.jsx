@@ -27,13 +27,13 @@ class Header extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Jelly City</NavbarBrand>
+          <NavbarBrand href="/">REACT - THUNK</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink className="nav-link" to="/home">
-                  Feature
+                  HOME
                 </NavLink>
               </NavItem>
               <NavItem>

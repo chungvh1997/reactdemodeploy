@@ -10,7 +10,7 @@ var indexRoutes = [
     redirect: true,
     path: "/",
     pathTo: "/home",
-    name: "Feature"
+    name: "Home"
   }
 ];
 
