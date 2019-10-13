@@ -1,0 +1,31 @@
+.views_home {
+    .container {
+        .form__select {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            label {
+                margin: 0 10px;
+            }
+        }
+        .row {
+            //c1:
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(279px, 279px));
+            grid-gap: 8px;
+            justify-content: center;
+            //c2:
+            // flex-wrap: wrap;
+            // justify-content: space-between;
+            // div {
+            //     flex: 1 1 280px;
+            // }
+        }
+        .ant-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

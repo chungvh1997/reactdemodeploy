@@ -6,9 +6,9 @@ if (
     /^192(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
   )
 ) {
-  HOST = "http://private-2063bf-chungvu.apiary-mock.com";
+  HOST = "https://private-2063bf-chungvu.apiary-mock.com";
 } else {
-  HOST = "http://private-2063bf-chungvu.apiary-mock.com";
+  HOST = "https://private-2063bf-chungvu.apiary-mock.com";
   // window.location.protocol + "//" + window.location.hostname + "/cms/api";
 }
 

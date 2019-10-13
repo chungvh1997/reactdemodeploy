@@ -8,6 +8,7 @@ import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import "./assets/scss/index.scss";
 import "bootstrap/dist/css/bootstrap.css";
+import 'antd/dist/antd.css'; 
 import { createBrowserHistory } from "history";
 import LayoutApp from "./layout/LayoutApp";
 
